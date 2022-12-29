@@ -15,7 +15,7 @@ jobs:
     needs: job-1
     steps:        
       - name: Install dependencies
-        run: npm install
+        run: npm build
   job-3:
     runs-on: ubuntu-latest
     needs: [job-1, job-2]
