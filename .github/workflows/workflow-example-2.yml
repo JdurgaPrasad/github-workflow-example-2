@@ -1,4 +1,4 @@
-name: Build & Deploy Project-2
+name: Build & Deploy First Project
 on: push
 jobs:
   test:
